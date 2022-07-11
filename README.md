@@ -1,4 +1,4 @@
-# tic-tac-toe-js
+# Tic Tac Toe with Vanilla JavaScript
 a simple multiplayer tic tac toe game in vanilla js
 
 ## Live Link
