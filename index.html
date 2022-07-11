@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- Primary Meta Tags -->
+    <title>Play Tic Tac Toe in PvP or AI mode</title>
+    <meta name="title" content="Play Tic Tac Toe in PvP or AI mode">
+    <meta name="description" content="A simple tic tac toe game in vanilla JavaScript and jQuery">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="WEBSITE_URL">
+    <meta property="og:title" content="Play Tic Tac Toe in PvP or AI mode">
+    <meta property="og:description" content="A simple tic tac toe game in vanilla JavaScript and jQuery">
+    <meta property="og:image" content="logo.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="WEBSITE_URL">
+    <meta property="twitter:title" content="Play Tic Tac Toe in PvP or AI mode">
+    <meta property="twitter:description" content="A simple tic tac toe game in vanilla JavaScript and jQuery">
+    <meta property="twitter:image" content="logo.jpg">
+
+	<!-- CSS file Included -->
+	<link rel="stylesheet" type="text/css" href="tic.css">
+
+	<!-- jQuery library for some transition effects -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<!-- JavaScript file included -->
+	<script src="tic.js" defer></script>
+</head>
+
+<body>
+	<div id="main">
+		<h1>TIC TAC TOE</h1>
+
+		<img src="logo.jpg" alt="logo image" />
+
+		<!-- Game mode selection menu -->
+		<div id="menu">
+			<p id="ins">Select a game mode</p>
+			<button id='pvp'>PvP</button>
+			<button id='ai1'>vs AI 1</button>
+			<button id='ai2'>vs AI 2</button>
+		</div>
+
+		<div id="thegame">
+
+			<!-- Game Instructions -->
+			<p id="ins"><strong><span id='gameMode'></span></strong>
+				<br><br>
+				Game starts by just Tap on
+				box<br><br>First Player starts as
+				<b>Player X</b><br>And<br><span id='secondplayer'>Second</span>
+				Player as <b>Player 0</b>
+			</p>		
+
+
+			<!-- 3*3 grid of Boxes -->
+			<div id="game-grid">
+				<input type="text" id="b1" readonly>
+				<input type="text" id="b2" readonly>
+				<input type="text" id="b3" readonly>
+				<input type="text" id="b4" readonly>
+				<input type="text" id="b5" readonly>
+				<input type="text" id="b6" readonly>
+				<input type="text" id="b7" readonly>
+				<input type="text" id="b8" readonly>
+				<input type="text" id="b9" readonly>
+			</div>
+
+			<!-- Button to reset game -->
+			<div id="game-buttons">
+				<button class="but resetgame">RESET</button>
+				<button class="but backtomenu">Back To Menu</button>
+			</div>
+
+			<!-- Space to show player turn -->
+			<p id="print"></p>
+
+		</div>
+		
+
+
+
+
+	</div>
+</body>
+
+</html>

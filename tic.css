@@ -1,0 +1,105 @@
+
+	/* CSS Code */
+	/* Heading */
+	h1 {
+		color: orangered;
+		font-size: 45px;
+	}
+
+	/* 3*3 Grid */
+	#b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9 {
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 1px solid gray;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	/* Reset Button */
+	.but {
+		box-sizing: border-box;
+		width: 95px;
+		height: 40px;
+		border: 1px solid #2DC19F;
+		margin: auto;
+		border-radius: 4px;
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		background-color: #2DC19F;
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+	/* Player turn space */
+	#print {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+			color: #1F8F76;
+		font-size: 20px;
+	}
+
+	/* Main Container */
+	#main {
+		text-align: center;
+	}
+
+	/* Game Instruction Text */
+	#ins {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+			
+		color: #1F8F76;
+		font-size: 17px;
+	}
+
+
+
+	/* ADDED by KAP THANG */
+
+	#menu {
+		display: flex;
+		flex-direction: column;
+		width: 20rem;
+		gap: 1rem;
+		margin: 0rem auto;
+	}
+
+	button {
+		padding: .5rem 2rem;
+		font-size: larger;
+		min-width: fit-content;
+		background-color: #2DC19F;
+		border: 1px solid #2DC19F;
+		color: white;
+		border-radius: 4px;
+	}
+
+	#thegame {
+		display: flex;
+		flex-direction: column;
+		display: none;
+	}
+
+	#game-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		width: fit-content;
+		gap: .25rem;
+		margin: 1rem auto;
+	}
+
+	img {
+		width: 15rem;
+		border-radius: 50%;
+	}
+
+	h1 {
+		color: #1F8F76;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
